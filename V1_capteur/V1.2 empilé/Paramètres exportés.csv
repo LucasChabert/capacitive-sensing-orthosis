@@ -1,0 +1,11 @@
+Nom,Unité,Expression,Valeur,Commentaires,Favori
+Deltax,mm,8 mm,8.00,,false
+le,mm,8 mm,8.00,,false
+L,mm,20 mm,20.00,,false
+d,mm,5 mm,5.00,,false
+Hs,mm,5 mm,5.00,,false
+deltad,mm,2 mm,2.00,,false
+h,mm,d + e + deltad + Hs,14.00,,false
+Largeur,mm,Deltax + 2 * le + 2 * bord + 2 * e,36.00,,false
+e,mm,2 mm,2.00,,false
+bord,mm,4 mm,4.00,,false
