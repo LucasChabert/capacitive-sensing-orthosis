@@ -189,18 +189,6 @@ ax2.plot(d, C1_model_avec_bord(params_avec_bord["Trajet"], d),
          color="darkmagenta", linewidth=1.5, linestyle="-.",
          label=f"Avec bord — trajet   (A={A_trajet_avec:.3f}, C1b={C1_bord_trajet:.3f})")
 
-# Courbes ajustées — modèle sans effet de bord (tirets)
-ax2.plot(d_exp_aller,  C1_model_sans_bord(params_sans_bord["Montée"],   d_exp_aller),
-         color="steelblue", linewidth=1.5, linestyle="--",
-         label=f"Sans bord — montée   (A={A_aller_sans:.3f})")
-
-ax2.plot(d_exp_retour, C1_model_sans_bord(params_sans_bord["Descente"], d_exp_retour),
-         color="tomato", linewidth=1.5, linestyle="--",
-         label=f"Sans bord — descente (A={A_retour_sans:.3f})")
-
-ax2.plot(d, C1_model_sans_bord(params_sans_bord["Trajet"], d),
-         color="darkmagenta", linewidth=1.5, linestyle="--",
-         label=f"Sans bord — trajet   (A={A_trajet_sans:.3f})")
 
 ax2.set_xlabel("d (mm)")
 ax2.set_ylabel("C1 (pF)")
