@@ -32,6 +32,7 @@ C1_std = np.std(
     ddof=1
 )
 
+C1_bord = np.min(C1_moy)
 n = 3
 
 incertitude_d = 1 / 9
@@ -47,7 +48,7 @@ incertitude_C1 = np.sqrt(
 
 def C1_model_avec_bord(params, d):
 
-    A1, A2, B, C1_bord = params
+    A1, A2, B = params
 
     N = len(d)
     milieu = 16
@@ -91,20 +92,19 @@ x0 = [
     amplitude * np.mean(d_fit),  # A1
     amplitude * np.mean(d_fit),  # A2
     0.1,                         # B
-    C1_fit_data.min()            # Cbord
 ]
 
 res = least_squares(
     cout_avec_bord,
     x0,
     bounds=(
-        [0, 0, 0, -np.inf],
-        [np.inf, np.inf, np.inf, np.inf]
+        [0, 0, 0],
+        [np.inf, np.inf, np.inf]
     ),
     args=(d_fit, C1_fit_data)
 )
 
-A1, A2, B, C1_bord = res.x
+A1, A2, B = res.x
 
 
 
