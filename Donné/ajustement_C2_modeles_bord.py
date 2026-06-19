@@ -138,7 +138,7 @@ ax2.plot(d_exp_retour, C2_model_avec_bord(params_avec_bord["Descente"], d_exp_re
 
 ax2.set_xlabel("d (mm)")
 ax2.set_ylabel("C2 (pF)")
-ax2.set_title("C2 expérimental vs modèles (avec / sans effet de bord)")
+ax2.set_title("C2 expérimental vs modèles ")
 ax2.legend(fontsize=8)
 ax2.grid(True, linestyle="--", alpha=0.4)
 fig2.tight_layout()
@@ -156,7 +156,7 @@ for nom, (d_res, res) in residus_avec_bord.items():
 ax3.axhline(0, color="gray", linewidth=1, linestyle="--")
 ax3.set_xlabel("d (mm)")
 ax3.set_ylabel("Résidus (pF)")
-ax3.set_title("Résidus des modèles avec / sans effet de bord")
+ax3.set_title("Résidus des modèles avec effet de bord")
 ax3.legend(fontsize=8)
 ax3.grid(True, linestyle="--", alpha=0.4)
 fig3.tight_layout()
