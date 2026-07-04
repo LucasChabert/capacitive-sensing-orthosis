@@ -125,6 +125,6 @@ Stage encadré par **Maxime Manzano**, Inria/IRISA, équipe Rainbow (Rennes).
 
 <div align="center">
 
-**📄 [Rapport complet (PDF)](docs/report.pdf)** · **🏗️ [Projet compagnon : TMD de Taipei 101](https://github.com/LucasChabert/taipei101-tmd)**
+**📄 [Rapport complet (PDF)](docs/report.pdf)** 
 
 </div>
