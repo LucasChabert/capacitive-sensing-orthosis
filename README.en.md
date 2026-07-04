@@ -126,6 +126,6 @@ Internship supervised by **Maxime Manzano**, Inria/IRISA, Rainbow team (Rennes).
 
 <div align="center">
 
-**📄 [Full report (PDF)](docs/report.pdf)** · **🏗️ Companion project: [Taipei 101 TMD](https://github.com/LucasChabert/taipei101-tmd)**
+**📄 [Full report (PDF)](docs/report.pdf)** .
 
 </div>
