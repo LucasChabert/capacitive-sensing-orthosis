@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# PlatformIO
+.pio/
+.vscode/
+
+# Impression 3D — sorties machine régénérables depuis les .3mf
+*.gcode
+
+# OS
+.DS_Store
+Thumbs.db
