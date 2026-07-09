@@ -1,10 +1,4 @@
-"""
-analyse_capacites_condensateur.py
-----------------------------------
-Analyse de la capacité de condensateurs C1 et C2 en fonction de la distance d.
-Les mesures sont répétées sur 3 essais pour évaluer la dispersion expérimentale.
-Les figures sont sauvegardées dans le dossier figures/analysis/.
-"""
+
 
 import os
 import pandas as pd
