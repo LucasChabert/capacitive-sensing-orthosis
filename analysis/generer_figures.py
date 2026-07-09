@@ -1,8 +1,4 @@
-"""
-generer_figures.py — Régénère les figures du rapport à partir de Book1.csv.
-Usage : placer Book1.csv dans le même dossier (ou ajuster le chemin) puis exécuter.
-Produit : fig_C_vs_d.pdf, fig_C1_fit.pdf, fig_reconstruction.pdf
-"""
+
 import pandas as pd, numpy as np
 from scipy.optimize import least_squares
 from scipy import stats
