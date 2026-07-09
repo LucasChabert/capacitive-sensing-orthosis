@@ -1,12 +1,3 @@
-"""
-ajustement_C1_modeles_bord.py
-------------------------------
-Ajustement de la capacité C1 par deux modèles (avec et sans effet de bord)
-sur trois segments : montée, descente, et trajet complet.
-Produit deux figures :
-  - figures/analysis/C1_parity_hysteresis.png  → graphe de parité (modèle vs mesure)
-  - figures/analysis/C1_model_vs_exp.png       → données expérimentales + courbes ajustées
-"""
 
 import os
 import pandas as pd
