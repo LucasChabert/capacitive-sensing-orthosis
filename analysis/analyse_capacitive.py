@@ -1,9 +1,4 @@
-"""
-Analyse d'un capteur capacitif différentiel.
-Implémente :
-    alpha = (C1,0/C2,0 - 1) * d0/Delta_d            (eq. eps_ref)
-    d     = alpha * Delta_d / (C1/C2 - 1)            (eq. d_final, formule encadrée)
-"""
+
 
 import pandas as pd
 import numpy as np
