@@ -1,18 +1,3 @@
-"""
-Analyse d'un capteur capacitif différentiel.
-Implémente :
-    alpha = (C1,0/C2,0 - 1) * d0/Delta_d            (eq. eps_ref)
-    d     = alpha * Delta_d / (C1/C2 - 1)            (eq. d_final, formule encadrée)
-
-Corrections par rapport au script de départ :
-- Le fichier fourni est Book1.xlsx (Excel), pas un .csv -> lecture avec pd.read_excel.
-- Les noms de colonnes réels du fichier ont été repris tels quels (espaces compris,
-  ex. "C1  pF", "d ").
-- La colonne "d " existe déjà dans le fichier (distance vraie de référence) : on
-  l'utilise directement au lieu de la recalculer depuis "Distance_diminué".
-- Le modèle eS/(C1-C1_bord) du script initial ne correspond pas à la formule encadrée
-  du document ; il est remplacé par celle-ci.
-"""
 
 import pandas as pd
 import numpy as np
