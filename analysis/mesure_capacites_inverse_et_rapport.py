@@ -1,14 +1,4 @@
-"""
-mesure_capacites_inverse_et_rapport.py
-----------------------------------------
-Analyse des capacités C1 et C2 sous forme inverse (1/C) et calcul
-d'un rapport normalisé permettant d'estimer la distance d à partir
-des mesures de capacité.
-Produit trois figures :
-  - figures/analysis/C1_inverse_vs_d.png      → 1/C1 en fonction de d
-  - figures/analysis/C2_inverse_vs_d.png      → 1/C2 en fonction de d
-  - figures/analysis/distance_calculee_vs_d.png → d reconstruit vs d mesuré
-"""
+
 
 import os
 import pandas as pd
