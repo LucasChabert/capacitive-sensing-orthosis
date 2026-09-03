@@ -12,7 +12,7 @@
 
 *Stage de recherche L1 MPCI · Inria / IRISA, équipe Rainbow (Rennes) · Juin–Juillet 2026*
 
-**🇫🇷 Français** · [🇬🇧 English](README.en.md)
+**🇫🇷 Français** · [🇬🇧 English](README.md)
 
 <img src="figures/analysis/C1_C2_vs_d.png" width="620" alt="Hystérésis des capacités C1 et C2 en fonction de l'écartement d"/>
 
