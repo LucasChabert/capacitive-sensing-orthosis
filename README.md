@@ -12,7 +12,7 @@
 
 *Undergraduate research internship (L1 MPCI) · Inria / IRISA, Rainbow team (Rennes, France) · June–July 2026*
 
-[🇫🇷 Français](README.md) · **🇬🇧 English**
+[🇫🇷 Français](README.fr.md) · **🇬🇧 English**
 
 <img src="figures/analysis/C1_C2_vs_d.png" width="620" alt="Hysteresis of capacitances C1 and C2 versus gap d"/>
 
