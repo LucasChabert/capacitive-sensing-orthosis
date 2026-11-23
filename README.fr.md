@@ -125,6 +125,6 @@ Stage encadré par **Maxime Manzano**, Inria/IRISA, équipe Rainbow (Rennes).
 
 <div align="center">
 
-**📄 [Rapport complet (PDF)](docs/report.pdf)** 
+**📄 [Rapport complet (PDF)](docs/report.fr.pdf)** 
 
 </div>
